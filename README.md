@@ -1,5 +1,7 @@
 # Frontend Mentor - Product preview card component
 
+https://hayden-christie.github.io/Product-Preview-Card-Challenge/
+
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
