@@ -1,0 +1,43 @@
+:root{
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-secondary-200: hsl(30, 38%, 92%);
+
+    --clr-neutral-900: hsl(212, 21%, 14%);
+    --clr-neutral-400: hsl(228, 12%, 48%) ;
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+
+    --fw-regular:500;
+    --fw-bold:700;
+}
+
+body{
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+.card-price{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap ;
+}
+
+.product{
+    background-color: var(--clr-neutral-100);
+    border-radius: .5rem;
+    overflow: hidden;
+
+}
+
+.product-content{
+    padding: 1rem;
+}
